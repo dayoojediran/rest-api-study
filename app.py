@@ -69,7 +69,7 @@ def create_app(db_url=None):
         return (jsonify({"description": "The token is not fresh", "error": "fresh_token_required"}))
 
     # with app.app_context():
-        # db.create_all()
+    #     db.create_all()
 
 
 
